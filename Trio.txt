@@ -1,0 +1,13 @@
+To run this container :
+
+Download ; Configure in host ; Launch ; Start terminal ; Download your 'linknx.xml' in /var/www/html , and make chmod 777 ;
+
+Configure your gateway in /etc/default/knxd ;
+
+Apache2 is setup in 2080 port ( instead 80 ) ;
+
+Launch /etc/init.d/start.sh ;
+
+View Readme in /var/www/html/ to replace files in knxweb2 ( Only in V2 )
+
+! IMPORTANT ! Change password for user : ssh_user ! IMPORTANT ! ( Only in V3 )
